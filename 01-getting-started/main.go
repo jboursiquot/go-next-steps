@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
-import u "github.com/jboursiquot/mystringutils"
+import (
+	"fmt"
+
+	u "github.com/jboursiquot/stringutils"
+)
 
 func main() {
 	fmt.Println(u.Upper("Hello, World"))
