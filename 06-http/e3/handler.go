@@ -28,11 +28,11 @@ func (ph *proverbsHandler) lookup(id int) (*proverb, error) {
 func newProverbsHandler() *proverbsHandler {
 	return &proverbsHandler{
 		proverbs: []proverb{
-			proverb{id: 1, value: "Don't communicate by sharing memory, share memory by communicating."},
-			proverb{id: 2, value: "Concurrency is not parallelism."},
-			proverb{id: 3, value: "Channels orchestrate; mutexes serialize."},
-			proverb{id: 4, value: "The bigger the interface, the weaker the abstraction."},
-			proverb{id: 5, value: "Make the zero value useful."},
+			{id: 1, value: "Don't communicate by sharing memory, share memory by communicating."},
+			{id: 2, value: "Concurrency is not parallelism."},
+			{id: 3, value: "Channels orchestrate; mutexes serialize."},
+			{id: 4, value: "The bigger the interface, the weaker the abstraction."},
+			{id: 5, value: "Make the zero value useful."},
 		},
 	}
 }
